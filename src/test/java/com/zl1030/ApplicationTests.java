@@ -1,6 +1,5 @@
-package com.didispace;
+package com.zl1030;
 
-import com.zl1030.Application;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
