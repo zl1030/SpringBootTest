@@ -1,0 +1,1 @@
+﻿ALTER TABLE player DROP COLUMN stageJYMax;

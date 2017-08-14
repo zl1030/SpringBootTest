@@ -1,0 +1,18 @@
+﻿
+ALTER TABLE gang MODIFY COLUMN gangId bigint(20) DEFAULT -1,MODIFY COLUMN leaderRoleId bigint(20) DEFAULT -1;
+ALTER TABLE gang_message MODIFY COLUMN id bigint(20) DEFAULT -1,MODIFY COLUMN gangId bigint(20) DEFAULT -1;
+ALTER TABLE mail MODIFY COLUMN id bigint(20) DEFAULT -1,MODIFY COLUMN groupMailId bigint(20) DEFAULT -1;
+ALTER TABLE stages MODIFY COLUMN id bigint(20) DEFAULT -1;
+ALTER TABLE equip MODIFY COLUMN id bigint(20) DEFAULT -1;
+ALTER TABLE prop_chip MODIFY COLUMN id bigint(20) DEFAULT -1;
+ALTER TABLE prop MODIFY COLUMN id bigint(20) DEFAULT -1;
+ALTER TABLE prop_res MODIFY COLUMN id bigint(20) DEFAULT -1;
+ALTER TABLE fashion MODIFY COLUMN id bigint(20) DEFAULT -1;
+ALTER TABLE chapterReward MODIFY COLUMN id bigint(20) DEFAULT -1;
+ALTER TABLE group_mail MODIFY COLUMN id bigint(20) DEFAULT -1;
+ALTER TABLE friend MODIFY COLUMN friendId bigint(20) DEFAULT -1;
+
+ALTER TABLE gang_member MODIFY COLUMN gangId bigint(20) DEFAULT -1;
+
+DROP TABLE gold_instance_zone;
+DROP TABLE task_finished;

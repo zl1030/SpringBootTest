@@ -1,0 +1,2 @@
+﻿
+ALTER TABLE account ADD COLUMN channelId int(11) DEFAULT -1,ADD COLUMN clientVersion VARCHAR(20) DEFAULT "",ADD COLUMN platform VARCHAR(30) DEFAULT "";

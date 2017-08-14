@@ -1,0 +1,2 @@
+﻿
+ALTER TABLE stages ADD COLUMN mission1 int(11) DEFAULT 0,ADD COLUMN  mission2 int(11) DEFAULT 0,ADD COLUMN  mission3 int(11) DEFAULT 0;
